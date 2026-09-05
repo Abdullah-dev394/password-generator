@@ -1,37 +1,10 @@
-<!-- 
-
-
-
-
-
-
-
-    alert
-    fso!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- -->
 <!DOCTYPE html>
 <html lang="az">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.svg" type="image/svg">
-    <title>Təkmilləşdirilmiş Şifrə Generatoru</title>
+    <title>Upgraded Password Generator</title>
     <style>
         :root {
             --bg-color: #10170d; 
@@ -188,12 +161,12 @@
 
     <div class="app-container">
         <div class="header">
-            <h1>Şifrə Generatoru</h1>
+            <h1>Password Generator</h1>
         </div>
 
         <div class="output-box">
-            <span class="password-text" id="passwordDisplay">Generate et...</span>
-            <button class="icon-btn" id="copyBtn" title="Kopyala">
+            <span class="password-text" id="passwordDisplay">Generate</span>
+            <button class="icon-btn" id="copyBtn" title="Generate">
                 <small>Kopyala</small>
             </button>
         </div>
@@ -201,7 +174,7 @@
         <div class="settings-container">
             <div class="slider-group">
                 <div class="slider-header">
-                    <span>Şifrə Uzunluğu</span>
+                    <span>Password Length</span>
                     <span class="val" id="lengthVal">16</span>
                 </div>
                 <input type="range" id="lengthSlider" min="6" max="64" value="16">
@@ -209,7 +182,7 @@
 
             <div class="setting-item">
                 <div class="setting-label">
-                    <span class="setting-title">Böyük hərflər</span>
+                    <span class="setting-title">Upper Letters</span>
                     <span class="setting-desc">A-Z</span>
                 </div>
                 <label class="switch">
@@ -220,7 +193,7 @@
 
             <div class="setting-item">
                 <div class="setting-label">
-                    <span class="setting-title">Kiçik hərflər</span>
+                    <span class="setting-title">Lower Letters</span>
                     <span class="setting-desc">a-z</span>
                 </div>
                 <label class="switch">
@@ -231,7 +204,7 @@
 
             <div class="setting-item">
                 <div class="setting-label">
-                    <span class="setting-title">Rəqəmlər</span>
+                    <span class="setting-title">Digits</span>
                     <span class="setting-desc">0-9</span>
                 </div>
                 <label class="switch">
@@ -241,7 +214,7 @@
             </div>
             <div class="setting-item">
                 <div class="setting-label">
-                    <span class="setting-title">Simvollar</span>
+                    <span class="setting-title">Symbols</span>
                     <span class="setting-desc">!@#$%^&*</span>
                 </div>
                 <label class="switch">
@@ -251,7 +224,7 @@
             </div>
         </div>
 
-        <button class="generate-btn">YENİ ŞİFRƏ YARAT</button>
+        <button class="generate-btn">CREATE NEW PASSWORD</button>
     </div>
 
     <div id="toast"><p id="toast-msg"></p></div>
