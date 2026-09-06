@@ -1,0 +1,11 @@
+quart==0.18.4
+uvicorn==0.40.0
+pywebview==6.2.1
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+Werkzeug==2.3.8
+click==8.3.0
+itsdangerous==2.2.0
+h11==0.16.0
+pythonnet==3.1.0
+proxy_tools==0.1.0
