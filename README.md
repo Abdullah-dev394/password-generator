@@ -140,14 +140,6 @@ Generates a random password based on provided criteria.
 }
 ```
 
----
-
-## 📸 Screenshots
-
-| Web App (Green Theme) | Desktop App (Cyan Theme) |
-|----------------------|-------------------------|
-| Azerbaijani UI with green accents | English UI with cyan accents |
-| Browser-based, responsive | Native Windows window |
 
 ---
 
